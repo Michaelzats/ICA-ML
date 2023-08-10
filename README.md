@@ -4,7 +4,7 @@ In the realm of automated document classification, we embarked on an exploration
 
 For the purpose of training and evaluation, the dataset was partitioned into a 70-30 split, with 70% allocated for training and the remaining 30% reserved for testing.
 
-Our investigative approach encompassed a range of machine learning models, namely Naive Bayes, Support Vector Machines (SVM), and Random Forest. Additionally, a Deep Neural Network, a paradigm of deep learning, was also employed. To enhance the performance and robustness of these models, various techniques were integrated into the pipeline:
+Our investigative approach encompassed a range of machine learning models, namely Naive Bayes, Support Vector Machines (SVM), and Random Forest. Additionally, a Deep Neural Network *(due to this model, the chanks of codes might take a while to load)*, a paradigm of deep learning, was also employed. To enhance the performance and robustness of these models, various techniques were integrated into the pipeline:
 
 Feature Engineering: Utilization of N-grams to capture local word order information.
 Word Embeddings: Leveraging pre-trained embeddings to represent words in a dense vector space.
@@ -13,7 +13,7 @@ Model Ensembling: Bagging was used to reduce variance by training multiple model
 Regularization Techniques: Dropout was introduced to prevent overfitting in the deep learning model.
 The models were evaluated on multiple metrics, including Precision, Recall, F1-Score, and Accuracy. The F1-Score, which harmoniously balances Precision and Recall, was chosen as the primary metric to determine the best model.
 
-Upon thorough evaluation, the SVM without any enhancements emerged as the superior model with an F1 Score of 0.9833512749362039. While other models with feature enhancements were closely competitive, the computational overhead and marginally inferior performance make the standardized SVM the recommended choice for this document classification task.
+Upon thorough evaluation, Dropout Deep Neural Network showed as the superior model with an F1 Score 0.983524. Nonetheless, as the model load time is significant, the second best model SVM without enhancement techniques is chosen with an F1 Score of 0.980188 is chosen as the best. While other models with feature enhancements were closely competitive, the computational overhead and marginally inferior performance make the standardized SVM the recommended choice for this document classification task.
 
 The development and refinement of our approach were greatly aided by resources from StackOverflow, ChatGPT, and a series of YouTube tutorials:
 
