@@ -13,7 +13,7 @@ Model Ensembling: Bagging was used to reduce variance by training multiple model
 Regularization Techniques: Dropout was introduced to prevent overfitting in the deep learning model.
 The models were evaluated on multiple metrics, including Precision, Recall, F1-Score, and Accuracy. The F1-Score, which harmoniously balances Precision and Recall, was chosen as the primary metric to determine the best model.
 
-Upon thorough evaluation, all models showed a high perfomance averaging with more than 0,9. SVM and Deep Neural Network were the best perfomance models.Nonetheless, as the Deep Neural Network model load time is significant, SVM without enhancement techniques is chosen with an F1 Score of 0.980188 is chosen as the best. While other models with feature enhancements were closely competitive, the computational overhead and marginally inferior performance make the standardized SVM the recommended choice for this document classification task.
+Upon thorough evaluation, all models showed a high performance averaging with more than 0,9. SVM and Deep Neural Network were the best performance models.Nonetheless, as the Deep Neural Network model load time is significant, SVM without enhancement techniques is chosen with an F1 Score of 0.980188 is chosen as the best. While other models with feature enhancements were closely competitive, the computational overhead and marginally inferior performance make the standardized SVM the recommended choice for this document classification task.
 
 The development and refinement of our approach were greatly aided by resources from StackOverflow, ChatGPT, and a series of YouTube tutorials:
 
