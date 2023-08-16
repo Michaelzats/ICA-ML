@@ -24,7 +24,7 @@ Prerequisites:
 * Google Colab (for running the provided notebook)
 
 Installation steps:
-* Clone the repository from Google Colab.
+* Clone the repository from Google Colab. (https://colab.research.google.com/drive/1j-RytXdZDXCAWKHlaQdFWmRo64SJt_3Y?usp=sharing)
 * Install necessary Python libraries using !pip install 
 (
 pip install numpy
