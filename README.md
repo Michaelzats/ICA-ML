@@ -24,7 +24,7 @@ Prerequisites:
 * Google Colab (for running the provided notebook)
 
 Installation steps:
-* Clone the repository from Google Colab. (https://colab.research.google.com/drive/1j-RytXdZDXCAWKHlaQdFWmRo64SJt_3Y?usp=sharing)
+* Clone the repository from Google Colab. (https://colab.research.google.com/drive/1j-RytXdZDXCAWKHlaQdFWmRo64SJt_3Y?usp=sharing) In Colab click File --> Save a copy in Colab.
 * Install necessary Python libraries using !pip install 
 (
 pip install numpy
@@ -40,7 +40,8 @@ pip install keras
 
 Usage:
 Basic examples:
-* Load the dataset provided “DATA.ZIP”. Do not unzip it before the excucution, the command # Once uploaded, unzip using: “!unzip DATASET.zip !ls” will do it.
+* Load the dataset provided “DATA.ZIP”. You can do it by clicking on the file folder icon from the right in Colab and then draging “DATA.ZIP” File into the opened part.  Example how to drag “DATA.ZIP” into the file folder <img width="573" alt="Screenshot 2023-08-16 at 21 19 02" src="https://github.com/Michaelzats/ICA-ML/assets/92814061/fd7286c6-8529-4340-8c94-19580c6a57a7">
+Do not unzip it before the excucution, the command # Once uploaded, unzip using: “!unzip DATASET.zip !ls” will do it.
 * Train the model using the provided training set.
 * Evaluate the model using the test set.
 
