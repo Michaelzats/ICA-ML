@@ -54,7 +54,8 @@ Features:
 
 Limitations:
 * The prototype is recommended to be run in Google Colab as it was created there and can not be simply transferred to the other environment 
-* The prototype is computationally heavy, therefore it takes long time to run it through. 
+* The prototype is computationally heavy, therefore it takes long time to run it through.
+* The prototype was done on MAC OS environment, therefore should you have any problems with running it on other environments, please contact mikhail.zats@praguecollege.cz
 
 Testing:
 * The models are evaluated using the test set provided in the dataset.
