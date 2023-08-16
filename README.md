@@ -25,7 +25,8 @@ Prerequisites:
 * Google Colab (for running the provided notebook)
 
 Installation steps:
-* Clone the repository from Google Colab. (https://colab.research.google.com/drive/1j-RytXdZDXCAWKHlaQdFWmRo64SJt_3Y?usp=sharing) In Colab click File --> Save a copy in Colab. <img width="270" alt="Screenshot 2023-08-16 at 21 21 34" src="https://github.com/Michaelzats/ICA-ML/assets/92814061/02117dcb-9c6a-44fe-8f6d-e457cdb5010a"> 
+* Clone the repository from Google Colab. (https://colab.research.google.com/drive/1j-RytXdZDXCAWKHlaQdFWmRo64SJt_3Y?usp=sharing) In Colab click File --> Save a copy in Colab.
+<img width="270" alt="Screenshot 2023-08-16 at 21 21 34" src="https://github.com/Michaelzats/ICA-ML/assets/92814061/02117dcb-9c6a-44fe-8f6d-e457cdb5010a"> 
 * Install necessary Python libraries using !pip install 
 (
 pip install numpy
